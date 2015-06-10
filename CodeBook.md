@@ -1,9 +1,12 @@
 Code book
+=========
 
-** Study Design
+Study Design
+------------
 How I collected the data
 
-** Code Book
+Code Book
+---------
 each variable and its units
 data types:
 
