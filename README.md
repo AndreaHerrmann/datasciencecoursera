@@ -16,14 +16,14 @@ I downloaded them on June 10th 2015.
 With respect to the project description, I changed the order of steps.
 I first integrated and labelled all data and then did the extraction.
 
-1. Item First, I read in the files into data tables.
-2. Item So far, activities are labelled by their numbers in the y-data. 
+1. First, I read in the files into data tables.
+2. So far, activities are labelled by their numbers in the y-data. 
 Therefore, I add the corresponding activity name from "activity_labels.txt" and column names.
-3. Item Then, I merge the training data and test data into one data table, named data_joined
-4. Item I use the variable names from "features.txt" as column names. I know that there could be better names,
+3. Then, I merge the training data and test data into one data table, named data_joined
+4. I use the variable names from "features.txt" as column names. I know that there could be better names,
 but I kept these because I think they allow a better traceability back to the original data.
-5. Item Extracts the mean and standard deviation for each measurement.
-6. Item From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. Extracts the mean and standard deviation for each measurement.
+6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 This script produces two tidy data sets:
 Steps 1.-5.) produces data_4 which is an extract from the original file, with column names.
