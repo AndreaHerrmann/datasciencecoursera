@@ -4,16 +4,16 @@ This readme-file describes my course project I produced for the Data Science cou
 The Codebook.md describes the variables which appear in the two resulting data sets produced by run_analysis.R.
 This readme.md file explains how run_analysis.R works.
 
-run_analysis.R uses the following data:
-input file: getdata-projectfiles-UCI HAR Dataset.zip
-source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+run_analysis.R uses the following data:   
+input file: getdata-projectfiles-UCI HAR Dataset.zip   
+source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones   
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 A Public Domain Dataset for Human Activity Recognition Using Smartphones. 
 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, 
-ESANN 2013. Bruges, Belgium 24-26 April 2013.
+ESANN 2013. Bruges, Belgium 24-26 April 2013.   
 I downloaded them on June 10th 2015.
 
-With respect to the project description, I changed the order of steps.
+With respect to the project description, I changed the order of steps:
 I first integrated and labelled all data and then did the extraction.
 
 1. First, I read in the files into data tables.
@@ -26,8 +26,8 @@ but I kept these because I think they allow a better traceability back to the or
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 This script produces two tidy data sets:
-Steps 1.-5.) produces data_4 which is an extract from the original file, with column names.
-Step 6.) produces another file, "data_aggregated", which calculates the average of the data in file data_4, averaged for each pair of subject and activity. 
+* Item Steps 1.-5.) produces data_4 which is an extract from the original file, with column names.
+* Item Step 6.) produces another file, "data_aggregated", which calculates the average of the data in file data_4, averaged for each pair of subject and activity. 
 
 
 
